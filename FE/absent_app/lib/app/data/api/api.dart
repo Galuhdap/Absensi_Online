@@ -12,7 +12,7 @@ class Api {
 
   // 10.0.2.2
 
-  String Ip = '192.168.1.15:3200';
+  String Ip = '10.0.2.2:3200';
 
   Future<String> get() async {
     final url = Uri.http(Ip, '/user');
